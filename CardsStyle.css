@@ -1,0 +1,142 @@
+/*-------------------Trending --------------------------------------------------------------------------*/
+#trending{
+    background-color: #f9f9ff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 50px 0px;
+}
+.trending-heading{
+    max-width: 1200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+.trending-heading h2{
+    font-size: 2.2rem;
+    color: #141314;
+    font-weight: 700;
+}
+.trending-heading p{
+    color: #696969;
+    margin: 10px 0px;
+
+}
+
+.trending-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 90px;
+    margin-top: 40px;
+
+}
+.trending-box{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgba(29,29,29,0.01);
+
+}
+.t-b-img{
+    width: 100%;
+    height: 100%;
+    max-height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    overflow: hidden ;
+
+}
+.t-b-img img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+.t-b-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:20px 0px;
+}
+.t-b-text a{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+.t-b-text span{
+    color: #696969;
+    font-size: 0.8rem;
+    letter-spacing:1px ;
+}
+.price-book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.t-price{
+    font-size: 1.5rem;
+    color: #363636;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.t-book{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3647df;
+    color: #3647df;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all ease 0.3s;
+}
+.t-book:hover{
+    color: #ffffff;
+    background-color: #3647df;
+
+}
+.agency-name{
+    background-color:#f1efff ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15px;
+
+}
+.agency-name img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.agency-name span{
+    color: #474747;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
